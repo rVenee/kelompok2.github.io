@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Profil Pengguna</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            overflow-y: auto;
+        }
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            margin: 40px 0;
+        }
+        .profile {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .profile:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #007BFF;
+            transition: transform 0.3s ease;
+        }
+        .profile img:hover {
+            transform: rotate(360deg);
+        }
+        .profile h2 {
+            margin: 15px 0 10px;
+            font-size: 22px;
+            color: #333;
+        }
+        .profile p {
+            font-size: 16px;
+            color: #666;
+        }
+        .profile .info {
+            text-align: left;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        .info span {
+            font-weight: bold;
+            color: #333;
+        }
+        .social-links a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #007BFF;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #0056b3;
+        }
+        .social-links a::before {
+            content: "•";
+            color: #007BFF;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <!-- Profil 1 -->
+        <div class="profile">
+            <img src="ainni.jpg" alt="Foto Profil 1">
+            <h2>Ainni az-zahra</h2>
+            <p>Mahasiswi universitas islam riau</p>
+            <div class="info">
+                <p><span>Nama Pengguna:</span> Ainni Az-zahra</p>
+                <p><span>NPM:</span> 233510161</p>
+                <p><span>Prodi:</span> Teknik informatika</p>
+                <p><span>Tempat, Tanggal Lahir:</span> Duri, 25 maret 2005</p>
+                <p><span>Hobi:</span> Menggambar</p>
+               
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/_ainniazzahra?igsh=NmlxdDkzZ3E5dXll">instagram</a>
+                
+            </div>
+        </div>
+
+        <!-- Profil 2 -->
+        <div class="profile">
+            <img src="verdian.jpg" alt="Foto Profil 2">
+            <h2>Verdian Ramadhan</h2>
+            <p>Mahasiswa universitas islam riau</p>
+            <div class="info">
+                <p><span>Nama Pengguna:</span> Verdian Ramadhan</p>
+                <p><span>NPM:</span> 233510315</p>
+                <p><span>Prodi:</span> Teknik informatika</p>
+                <p><span>Tempat, Tanggal Lahir:</span> Pekanbaru, 17 oktober 2004</p>
+                <p><span>Hobi:</span> Bermain game dan Memelihara kucing</p>
+                
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/rmdhnv._?igsh=MWlzeHMzMTY0OWpvOA==">instagram</a>
+                
+            </div>
+        </div>
+
+        <!-- Profil 3 -->
+        <div class="profile">
+            <img src="ariyandi.jpg" alt="Foto Profil 3">
+            <h2>Ariyandi Maulana Putra</h2>
+            <p>Mahasiswa universitas islam riau</p>
+            <div class="info">
+                <p><span>Nama Pengguna:</span> Ariyandi Maulana Putra</p>
+                <p><span>NPM:</span> 233510262</p>
+                <p><span>Prodi:</span> Teknik informatika</p>
+                <p><span>Tempat, Tanggal Lahir:</span> Pekanbaru, 15 Maret 1985</p>
+                <p><span>Hobi:</span> Membaca dan bermain game</p>
+                
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/ariyandimp31?igsh=aGtwbmRxZzZuenFp">Instagram</a>
+                
+            </div>
+        </div>
+
+        <!-- Profil 4 -->
+        <div class="profile">
+            <img src="azre.jpg" alt="Foto Profil 4">
+            <h2>Muhammad Asri Febrian</h2>
+            <p>Mahasiswa universitas islam riau</p>
+            <div class="info">
+                <p><span>Nama Pengguna:</span> Muhammad Asri6 Febrian</p>
+                <p><span>NPM:</span> 233510436</p>
+                <p><span>prodi:</span> Teknik informamtika</p>
+                <p><span>Tempat, Tanggal Lahir:</span> Rokan hulu, 25 Februari 2005</p>
+                <p><span>Hobi:</span> Bermain game, Membaca komik</p>
+                
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/mhmmd_azreee?igsh=MTM2bjI1cjVvYm54ZQ==">instagram</a>
+        
+            </div>
+        </div>
+    </div>
+</body>
+</html>
